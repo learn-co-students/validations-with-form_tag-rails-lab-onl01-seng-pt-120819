@@ -15,13 +15,6 @@ class AuthorsController < ApplicationController
     else
       render :new
     end
-  end
-
-  def edit
-    @author = Author.find(params[:id])
-  end
-
-  def update
   end 
 
   private
